@@ -142,7 +142,7 @@ const AppointmentForm = () => {
             </select>
             <input
               type="date"
-              placeholder="Appointment Date  kk"
+              placeholder="Appointment Date"
               value={appointmentDate}
               onChange={(e) => setAppointmentDate(e.target.value)}
             />
